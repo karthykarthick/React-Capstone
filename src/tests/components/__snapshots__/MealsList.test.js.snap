@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MealsList with empty meals correctly 1`] = `
+<div
+  className="content-container"
+>
+  <Loader />
+</div>
+`;
+
+exports[`should render MealsList with full meals correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="meals"
+  >
+    <MealListItem
+      meal={
+        Object {
+          "category": "SeaFood",
+          "id": "12345",
+          "image": "https://google.com/images/image.png/preview",
+          "title": "Meal Title 1",
+        }
+      }
+    />
+    <MealListItem
+      meal={
+        Object {
+          "category": "Chicken",
+          "id": "12445",
+          "image": "https://google.com/images/image.png/preview",
+          "title": "Meal Title 2",
+        }
+      }
+    />
+    <MealListItem
+      meal={
+        Object {
+          "category": "Chicken",
+          "id": "12545",
+          "image": "https://google.com/images/image.png/preview",
+          "title": "Meal Title 3",
+        }
+      }
+    />
+  </div>
+</div>
+`;

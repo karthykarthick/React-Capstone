@@ -1,0 +1,43 @@
+.filter {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.filter__input {
+  width: 400px;
+}
+
+.filter__selector {
+  width: 150px;
+}
+
+.filter__input,
+.filter__selector,
+.filter__button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.filter__button {
+  width: 120px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .filter {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .filter > * {
+    margin-bottom: 10px;
+  }
+
+  .filter__input {
+    width: 100%;
+  }
+}

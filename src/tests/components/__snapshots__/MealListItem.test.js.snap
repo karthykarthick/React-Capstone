@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MealListItem correctly 1`] = `
+<Link
+  className="meal"
+  to="/meal/234214"
+>
+  <img
+    alt="This is a title"
+    className="meal__image"
+    src="https://www.google.com/images/test.png"
+  />
+  <div
+    className="meal__info"
+  >
+    <h4
+      className="meal__info__title"
+    >
+      This is a title
+    </h4>
+    <span
+      className="meal__info__category"
+    >
+      Seafood
+    </span>
+  </div>
+</Link>
+`;
+
+exports[`should render MealListItem correctly with dots on title 1`] = `
+<Link
+  className="meal"
+  to="/meal/234214"
+>
+  <img
+    alt="This is a really long title that should be trunctated"
+    className="meal__image"
+    src="https://www.google.com/images/test.png"
+  />
+  <div
+    className="meal__info"
+  >
+    <h4
+      className="meal__info__title"
+    >
+      This is a really long title that s...
+    </h4>
+    <span
+      className="meal__info__category"
+    >
+      Seafood
+    </span>
+  </div>
+</Link>
+`;

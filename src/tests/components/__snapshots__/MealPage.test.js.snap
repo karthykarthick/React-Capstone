@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MealPage correctly 1`] = `
+<div
+  className="content-container page-container"
+>
+  <div
+    className="heading"
+  >
+    <h1
+      className="title"
+    >
+      This is a Title
+    </h1>
+    <p
+      className="area"
+    >
+      mexico Food
+    </p>
+  </div>
+  <div
+    className="video-container"
+  >
+    <iframe
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen={true}
+      className="video"
+      src="https://youtube.com/sXWdswe3_"
+      title="This is a Title"
+    />
+    <div
+      className="headline"
+    >
+      👇 👇 👇 Instructions below 👇 👇 👇
+    </div>
+  </div>
+  <div
+    className="preparation"
+  >
+    <img
+      alt="This is a Title thumbnail"
+      className="image"
+      src="https://google.com/images/test.png"
+    />
+    <div
+      className="ingredients"
+    >
+      <h4>
+        Ingredients
+      </h4>
+      <ul>
+        <li
+          className="ingredients__item"
+        >
+          ingredient 1
+        </li>
+        <li
+          className="ingredients__item"
+        >
+          ingredient 2
+        </li>
+        <li
+          className="ingredients__item"
+        >
+          ingredient 3
+        </li>
+        <li
+          className="ingredients__item"
+        >
+          ingredient 4
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="instructions"
+  >
+    <h1>
+      Instructions
+    </h1>
+    <p>
+      This is supposed to be hug
+    </p>
+  </div>
+</div>
+`;
+
+exports[`should render MealPage correctly without a video 1`] = `
+<div
+  className="content-container page-container"
+>
+  <div
+    className="heading"
+  >
+    <h1
+      className="title"
+    >
+      This is a Title
+    </h1>
+    <p
+      className="area"
+    >
+      mexico Food
+    </p>
+  </div>
+  <div
+    className="preparation"
+  >
+    <img
+      alt="This is a Title thumbnail"
+      className="image"
+      src="https://google.com/images/test.png"
+    />
+    <div
+      className="ingredients"
+    >
+      <h4>
+        Ingredients
+      </h4>
+      <ul>
+        <li
+          className="ingredients__item"
+        >
+          ingredient 1
+        </li>
+        <li
+          className="ingredients__item"
+        >
+          ingredient 2
+        </li>
+        <li
+          className="ingredients__item"
+        >
+          ingredient 3
+        </li>
+        <li
+          className="ingredients__item"
+        >
+          ingredient 4
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="instructions"
+  >
+    <h1>
+      Instructions
+    </h1>
+    <p>
+      This is supposed to be hug
+    </p>
+  </div>
+</div>
+`;
