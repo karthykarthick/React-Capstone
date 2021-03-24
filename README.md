@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://meals-book.herokuapp.com/)
+[Live Demo Link](https://eager-joliot-750952.netlify.app/)
 
 
 ## Getting Started
