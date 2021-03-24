@@ -4,7 +4,7 @@
 
 ## Project Screenshot:
 
-![project screenshot](https://user-images.githubusercontent.com/34653764/104085508-54e3ab00-5250-11eb-87c7-87b179832a15.png)
+![project screenshot](screenshot.png)
 
 ## Video Presentation:
 
