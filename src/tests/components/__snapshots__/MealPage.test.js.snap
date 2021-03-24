@@ -31,7 +31,7 @@ exports[`should render MealPage correctly 1`] = `
     <div
       className="headline"
     >
-      👇 👇 👇 Instructions below 👇 👇 👇
+      Instructions below
     </div>
   </div>
   <div
