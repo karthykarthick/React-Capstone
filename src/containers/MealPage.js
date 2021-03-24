@@ -46,7 +46,7 @@ export const MealPage = ({
             />
             <div className="headline">
               {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
-              👇 👇 👇 Instructions below 👇 👇 👇
+              Instructions below
             </div>
           </div>
         )
