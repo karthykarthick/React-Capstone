@@ -38,7 +38,7 @@ In order to have this project up and running you will need:
 First, you need to clone this project using one of the links above, using this command:
 
 ```Javascript
-git clone RESPOSITRY_LINK
+git clone https://github.com/karthykarthick/React-Capstone.git
 
 ```
 
