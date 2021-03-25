@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MealsList with empty meals correctly 1`] = `
+<div
+  className="content-container"
+>
+  <Loader />
+</div>
+`;
+
+exports[`should render MealsList with full meals correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="meals-container"
+  >
+    <div
+      className="meals"
+    />
+    <button
+      className="add-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Load More
+    </button>
+  </div>
+</div>
+`;

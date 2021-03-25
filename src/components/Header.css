@@ -1,0 +1,28 @@
+/* color: #ff772e; HEADER COLOR */
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #2ef1ff;
+  height: 60px;
+  z-index: 100;
+}
+
+.header__link {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 195px;
+  transition: color ease-in 0.1s;
+}
+
+.header__title:hover {
+  color: #2ef1ff;
+}

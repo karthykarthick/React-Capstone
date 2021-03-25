@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MealsListFilter correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="filter"
+  >
+    <input
+      className="filter__input"
+      onChange={[Function]}
+      placeholder="Search by Title"
+      type="text"
+      value=""
+    />
+    <select
+      className="filter__selector"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        value=""
+      >
+        All
+      </option>
+      <option>
+        SeaFood
+      </option>
+      <option>
+        Chicken
+      </option>
+      <option>
+        Dessert
+      </option>
+      <option>
+        Salad
+      </option>
+      <option>
+        Beef
+      </option>
+    </select>
+    <button
+      className="filter__button"
+      onClick={[Function]}
+      type="button"
+    >
+      Clear Filters
+    </button>
+  </div>
+</div>
+`;
